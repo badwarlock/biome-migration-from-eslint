@@ -1,6 +1,16 @@
 # Миграция с ESLint + Prettier на Biome
 
+> ⚠️ **Важно:** Эта конфигурация использует **Biome 2.0** с новым синтаксисом `files.includes` (вместо устаревших `files.include` и `files.ignore` из Biome 1.x)
+
 Этот репозиторий демонстрирует полную миграцию с ESLint и Prettier на [Biome](https://biomejs.dev/) - быстрый форматировщик и линтер для JavaScript, TypeScript, JSX и TSX.
+
+## 🎯 Версия Biome
+
+**Используется Biome 2.0+** с breaking changes:
+- ❌ `files.include` и `files.ignore` удалены
+- ✅ `files.includes` с новым glob-синтаксисом
+- 🔄 Паттерны с `!` для исключений
+- 📝 Изменена семантика `*` и `**/*`
 
 ## 📋 Что включено
 
