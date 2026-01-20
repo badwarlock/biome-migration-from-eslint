@@ -1,0 +1,21 @@
+{
+  "name": "biome-migration-example",
+  "version": "1.0.0",
+  "description": "Project migrated from ESLint + Prettier to Biome",
+  "type": "module",
+  "scripts": {
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "ci": "biome ci ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
